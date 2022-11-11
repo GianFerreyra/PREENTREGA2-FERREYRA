@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(252, 146, 7);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caja{
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+.h1{
+    font-size: 50px ;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
+.grid-layout{
+    height: 650px;
+    display: grid;
+    grid-template-areas: "cabecera" "cabecera"
+                        "menu" "menu" 
+                        "contenido" "lateral"
+                        "footer" "footer";
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.navbar__item{
+    display: inline-block;
+} 
+
+.navlink{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 40px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+
+.submenu__item{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbar__item:hover>ul{
+    display: block;
+}
+.navlink:hover{
+    background-color: rgb(255, 255, 255);
+}
+:active{
+    color: rgb(27, 204, 56);
+}
+
+.c1{
+    grid-area: cabecera;
+    background-color: lightblue;
+}
+
+.c2{
+    grid-area: menu;
+    background-color: lightyellow ;
+}
+
+.c3{
+    grid-area: contenido;
+    background-color: lightsalmon;
+}
+
+.c12{
+    background-color: lightseagreen;
+}
+
+.c11{
+    grid-area: lateral;
+    background-color: chocolate ;
+}
+
+.c5{
+    grid-area: footer;
+    background-color: pink;
+}
+
+footer{
+    width: 100%;
+    background-color: yellow;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+footer p{
+text-align: center;
+padding: 4rem;
+font-size: 35px;
+}
+
+p{
+    text-align: justify;
+}
+form{
+    width: 450px;
+    height: 225px;
+    padding: 35px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form label{
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}

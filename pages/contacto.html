@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navlink active" href="/index.html">Inicio</a></li>
+                <li class="navbar__item"><a class="navlink" href="#">Acerca de</a>
+                    <ul class="submenu">
+                        <li class="submenu__item"><a href="/pages/donaldtrump.html">Donald Trump</a></li>
+                        <li class="submenu__item"><a href="/pages/javiermilei.html">Javier Milei</a></li>
+                        <li class="submenu__item"><a href="/pages/jairbolsonaro.html">Jair Bolsonaro</a></li>
+                        <li class="submenu__item"><a href="/pages/giorgiameloni.html">Giorgia Meloni</a></li>
+                        <li class="submenu__item"><a href="/pages/agustinlaje.html">Agustin Laje</a></li>
+                        <li class="submenu__item"><a href="/pages/santiagoabascal.html"> Santiago Abascal</a></li>
+                    </ul>
+                </li>
+                <li class="navbar__item"><a class="navlink" href="/pages/contacto.html">Contactanos</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <main>  
+        <h2>Hacé tu consulta</h2>
+        <section>
+            <form action="">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="surname">Apellido</label>
+                    <input type="text" id="surname">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="phone">Celular</label>
+                    <input type="text" id="phone">
+                </div>
+                <div>
+                    <label for="city">Ciudad</label>
+                    <input type="text" id="city">
+                </div>
+                <div>
+                    <label for="state">Provincia</label>
+                    <select name="state" id="state">
+                        <option value="">Seleccione una provincia</option>
+                        <option selected="">Provincia de Buenos Aires </option>
+                        <option value="CABA">CABA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cp">Código Postal</label>
+                    <input type="number" id="cp">
+                    <button class="submitButton" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p> "¿Cómo describes a un comunista? Es alguien que lee a Marx y Lenin. ¿Y cómo describes a un anticomunista? Es alguien que entiende a Marx y Lenin." -Ronald Reagan </p>
+    </footer>
+</body>
+</html>
